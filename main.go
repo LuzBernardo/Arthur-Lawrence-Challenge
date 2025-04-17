@@ -99,7 +99,7 @@ func printState(state State) {
 func main() {
 	state, err := readInput()
 	if err != nil {
-		fmt.Fprintf(os.Stderr, "Error reading inpu: %v\n", err)
+		fmt.Fprintf(os.Stderr, "Error reading input: %v\n", err)
 		os.Exit(1)
 	}
 
